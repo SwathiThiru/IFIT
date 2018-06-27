@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:context="com.example.android.ifit.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorAccent"
+        android:layout_margin="8dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/u_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NAME : "
+                android:textSize="18dp"
+                android:textColor="@color/colorwhite"/>
+            <TextView
+                android:id="@+id/v_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SWATHI T"
+                android:textSize="18dp"
+                android:textColor="@color/colorwhite"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorAccent"
+        android:layout_below="@+id/layout1"
+        android:layout_margin="8dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/u_height"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HEIGHT : "
+                android:textSize="18dp"
+                android:textColor="@color/colorwhite"/>
+            <TextView
+                android:id="@+id/v_height"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5.5"
+                android:textSize="18dp"
+                android:textColor="@color/colorwhite"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/layout2"
+        android:background="@color/colorAccent"
+        android:layout_margin="8dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/u_weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WEIGHT : "
+                android:textSize="18dp"
+                android:textColor="@color/colorwhite"/>
+            <TextView
+                android:id="@+id/v_weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="52 Kg"
+                android:textSize="18dp"
+                android:textColor="@color/colorwhite"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/layout4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorAccent"
+        android:layout_below="@id/layout3"
+        android:layout_margin="8dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/u_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AGE : "
+                android:textSize="18dp"
+                android:textColor="@color/colorwhite"/>
+            <TextView
+                android:id="@+id/v_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20"
+                android:textSize="18dp"
+                android:textColor="@color/colorwhite"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout5"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorAccent"
+        android:layout_below="@+id/layout4"
+        android:layout_margin="8dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/u_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GENDER : "
+                android:textSize="18dp"
+                android:textColor="@color/colorwhite"/>
+            <TextView
+                android:id="@+id/v_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FEMALE"
+                android:textSize="18dp"
+                android:textColor="@color/colorwhite"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout6"
+        android:layout_below="@+id/layout5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_centerInParent="true">
+        <Button
+            android:layout_centerInParent="true"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="CALCULATE"
+            android:textColor="@color/colorwhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/layout7"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/layout6"
+        android:background="@color/colorAccent"
+        android:layout_margin="8dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/u_bmi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" BMI: "
+                android:textSize="18dp"
+                android:textColor="@color/colorwhite"/>
+            <TextView
+                android:id="@+id/v_bmi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20"
+                android:textSize="18dp"
+                android:textColor="@color/colorwhite"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout8"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/layout7"
+        android:background="@color/colorAccent"
+        android:layout_margin="8dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/u_wei"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RECOMMENDED WEIGHT: "
+                android:textSize="18dp"
+                android:textColor="@color/colorwhite"/>
+            <TextView
+                android:id="@+id/v_wei"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="55"
+                android:textSize="18dp"
+                android:textColor="@color/colorwhite"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
